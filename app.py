@@ -6,10 +6,10 @@ import re
 # PAGE SETUP
 # -----------------------------
 st.set_page_config(layout="wide")
-st.title("Academic Writing Improver")
+st.title("Essay Checker")
 st.caption(
-    "A rule-based checker (no AI). Treat each flag as a prompt to look again, not as a definite error. "
-    "The app does not save your text."
+    "A rule-based checker using no AI. Treat each flag as a prompt to look again, not as a definite error. "
+    "The app does not save or store your text."
 )
 
 text = st.text_area("Paste your essay:", height=350)
